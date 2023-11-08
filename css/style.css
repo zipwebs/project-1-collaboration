@@ -1312,7 +1312,7 @@ header .navbar .navbar-header .navbar-brand{
     font-weight:600!important;
     letter-spacing:1px;
     text-transform:none;
-    webkit-border-radius:5px 5px;
+    -webkit-border-radius:5px 5px;
     -moz-border-radius:5px 5px;
     border-radius:5px 5px
 }
