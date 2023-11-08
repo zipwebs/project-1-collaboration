@@ -3,7 +3,7 @@
 <!--    This is a html document that we Ahmad, Basma and myself Jerome Will be working on. I'm primarily responsible for the html of the project, Basma is responsible for the JavaSript and Ahmad, is responsive for making everything looking and floowing great #CSS! 
 Lets go -->
 
-<!--/////////////////////////////////////////////////// Element #1  ///////////////////////////////////////////////////-->
+<!--/////////////////////////////////////////////////// Element #1 Head  ///////////////////////////////////////////////////-->
 <!--Element #1 Header of the document, this is whereby we'll give the browser and variouse services such as search engine and social sites directives on how to interact with the web page-->
 <head>
     <meta charset="utf-8">
@@ -35,5 +35,42 @@ Lets go -->
 
 </head>
 <body>
+
+    <!--/////////////////////////////////////////////////// Element #2  Header ///////////////////////////////////////////////////-->
+ 	<!--begin header - The header section of a page is very important as it holds key information about the page and it's usually the area where we put our menu, logo, search bar, quick links and so on! But take a look at the structure of the menu below to see how organized they are!	-->
+
+    <header class="header">
+        <!-- Begin nav. The nav section of the page is simantically relevant HMTL5 as it allows verious access/diabled assistant devices to understand the content of the pagge without using older HTML4 elements -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            
+            <!--begin container -->
+            <div class="container">
+        
+                <!--begin navbar -->
+                <div class="navbar-header">
+				<!-- This the logo was designed by me (Jerome) in the WDDM - 116 Class with Milorad Eftoski . PS. Notice I added a version on it? this is to bust local caching to force the user's device to fetch the latest vesion when the version is updated (Just change the version number) because I will be replacing it with a production grade logo and I want you to see it!  -->
+				<a href="index.html" class="navbar-brand brand logo"><img src="./images/logo.svg?version=1"></a>
+                </div>
+                        
+                <div id="navbar-collapse-02" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">			      
+                        <!-- <li><a href="index.html">Home</a></li> -->
+                        <li><a href="exercise-2.html">Exercise #2</a></li> 
+                        <li><a href="project-1.html">Project #1</a></li>                        
+                        <li><a href="#contact" class="purchase">Contact Us</a></li>
+                    </ul>
+                </div>
+                <!--end navbar -->
+                                    
+            </div>
+    		<!--end container -->
+            
+        </nav>
+    	<!--end nav -->
+        
+    </header>
+    <!--end header --> 
     
-</body></html>
+
+</body>
+</html>
