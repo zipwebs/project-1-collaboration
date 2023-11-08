@@ -1,0 +1,306 @@
+/*This is just some basic declarations that will give the project an overall good look and really great aesthetics*/
+@font-face{
+    font-family:'Glyphicons Halflings';
+    src:url(../fonts/glyphicons-halflings-regular.eot);
+    src:url(../fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'),url(../fonts/glyphicons-halflings-regular.woff2) format('woff2'),url(../fonts/glyphicons-halflings-regular.woff) format('woff'),url(../fonts/glyphicons-halflings-regular.ttf) format('truetype'),url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
+}
+
+
+@font-face {
+   font-family: Dancing Script;
+   src: url(../fonts/DancingScript-VariableFont_wght.woff);
+}
+
+
+*{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+}
+:after,:before{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+}
+html{
+    font-size:10px;
+    -webkit-tap-highlight-color:transparent
+}
+body{
+    font-family:'Open Sans',sans-serif;
+    font-size:14px;
+    line-height:1.42857143;
+    color:#333;
+    background-color:#fff
+}
+a{
+    color:#337ab7;
+    text-decoration:none
+}
+a:focus,a:hover{
+    color:#23527c;
+    text-decoration:underline
+}
+a:focus{
+    outline:thin dotted;
+    outline:5px auto -webkit-focus-ring-color;
+    outline-offset:-2px
+}
+
+
+/*Begin text decoration styling*/
+a.light-link{
+	color:#fff;
+}
+
+.blue-text{
+	color:blue;
+}
+
+/*End text decoration styling*/
+
+img{
+    vertical-align:middle
+}
+.img-responsive{
+    display:block;
+    max-width:100%;
+    height:auto
+}
+[role=button]{
+    cursor:pointer
+}
+.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{
+    font-family:inherit;
+    font-weight:500;
+    line-height:1.1;
+    color:inherit
+}
+.h1 .small,.h1 small,.h2 .small,.h2 small,.h3 .small,.h3 small,.h4 .small,.h4 small,.h5 .small,.h5 small,.h6 .small,.h6 small,h1 .small,h1 small,h2 .small,h2 small,h3 .small,h3 small,h4 .small,h4 small,h5 .small,h5 small,h6 .small,h6 small{
+    font-weight:400;
+    line-height:1;
+    color:#777
+}
+.h1,.h2,.h3,h1,h2,h3{
+    margin-top:20px;
+    margin-bottom:10px
+}
+.h1 .small,.h1 small,.h2 .small,.h2 small,.h3 .small,.h3 small,h1 .small,h1 small,h2 .small,h2 small,h3 .small,h3 small{
+    font-size:65%
+}
+.h4,.h5,.h6,h4,h5,h6{
+    margin-top:10px;
+    margin-bottom:10px
+}
+.h4 .small,.h4 small,.h5 .small,.h5 small,.h6 .small,.h6 small,h4 .small,h4 small,h5 .small,h5 small,h6 .small,h6 small{
+    font-size:75%
+}
+.h1,h1{
+    font-size:36px
+}
+.h2,h2{
+    font-size:30px
+}
+.h3,h3{
+    font-size:24px
+}
+.h4,h4{
+    font-size:18px
+}
+.h5,h5{
+    font-size:14px
+}
+.h6,h6{
+    font-size:12px
+}
+p{
+    margin:0 0 10px
+}
+.small,small{
+    font-size:85%
+}
+.mark,mark{
+    padding:.2em;
+    background-color:#fcf8e3
+}
+.text-right{
+    text-align:right
+}
+.text-center{
+    text-align:center
+}
+.text-info{
+    color:#31708f
+}
+a.text-info:focus,a.text-info:hover{
+    color:#245269
+}
+.page-header{
+    padding-bottom:9px;
+    margin:40px 0 20px;
+    border-bottom:1px solid #eee
+}
+ul{
+    margin-top:0;
+    margin-bottom:10px
+}
+ul ul{
+    margin-bottom:0
+}
+.border{
+    border:1px solid rgb(199, 199, 199);
+    border-radius: 8px;
+}
+.no-padding{
+    padding:09
+}
+.no-padding-right{
+    padding-left:0
+}
+.small-padding-right{
+    padding-right:5px
+}
+ul{
+    list-style:none;
+    list-style-image:none;
+    margin:0;
+    padding:0;
+    color:#858585;
+    font-size:14px;
+    line-height:24px;
+    margin-bottom:20px
+}
+ul li{
+    font-size:14px;
+    line-height:28px
+}
+ul li i{
+    vertical-align:middle
+}
+ul.features-list-dark{
+    display:inline-block
+}
+ul.features-list-dark li{
+    float:left;
+    font-size:15px;
+    line-height:28px;
+    margin:1px 0
+}
+ul.features-list li{
+    float:left;
+    font-size:15px;
+    line-height:24px;
+    margin:12px 0
+}
+ul.features-list li img{
+    max-width:55px;
+    margin-right:20px;
+    float:left
+}
+p{
+    font-size:15px;
+    line-height:24px;
+    font-weight:400;
+    color:#858585;
+    margin-bottom:15px
+}
+a,a:focus,a:hover{
+    text-decoration:none;
+    outline:0
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:Roboto,sans-serif;
+    font-weight:700;
+    line-height:1.2;
+    margin-bottom:20px;
+    color:#454545
+}
+h1{
+    font-size:42px
+}
+h2{
+    font-size:34px
+}
+h3{
+    font-size:28px
+}
+h4{
+    font-size:24px
+}
+h5{
+    font-size:20px
+}
+h6{
+    font-size:18px
+}
+h2.section-title{
+    font-size:36px;
+    margin:0 0 15px 0
+}
+h2.section-title.grey{
+    color:#ddd
+}
+p.section-subtitle{
+    font-size:17px
+}
+p.section-subtitle.grey{
+    color:#bbb
+}
+.separator_wrapper,.separator_wrapper_white{
+    margin-bottom:10px
+}
+.separator_wrapper::after,.separator_wrapper::before{
+    background-color:#34b1c4;
+    display:inline-block;
+    vertical-align:middle;
+    content:"";
+    width:60px;
+    height:1px;
+    margin-top:-6px
+}
+.separator_wrapper_white::after,.separator_wrapper_white::before{
+    background-color:#ddd;
+    display:inline-block;
+    vertical-align:middle;
+    content:"";
+    width:60px;
+    height:1px;
+    margin-top:-6px
+}
+h3.medium-title{
+    font-size:32px;
+    margin-top:10px
+}
+iframe{
+    max-width:100%;
+    border:none
+}
+.width-100{
+    width:100%
+}
+.medium{
+    font-weight:400
+}
+.blue{
+    color:#3498db
+}
+.red{
+    color:#34b1c4
+}
+.grey{
+    color:#ddd
+}
+.white{
+    color:#fff
+}
+.section-white{
+    background-color:#fff;
+    padding:90px 0
+}
+.section-grey{
+    background-color:#eef0f1;
+    padding:90px 0
+}
+.section-grey.small-padding,.section-white.small-padding{
+    padding:40px 0
+}
