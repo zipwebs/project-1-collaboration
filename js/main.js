@@ -54,3 +54,8 @@ function duplicateMe() {
         buttonToDuplicate.parentNode.insertBefore(clonedButton, buttonToDuplicate.nextSibling);
     }
 }
+
+// This is a simple function it will print a message the console when a the event is recorde
+function printToConsoleSimple(){
+	console.log("Javascript is a very powerful scripting language that has solidify itself as one of the top three of the internet!");
+}
