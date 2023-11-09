@@ -28,5 +28,13 @@ function toggleSectionColor() {
 
 //This function is very similar to the one above, it will check if a particular class exists then it will change it if does. 
 function toggleSectionHeadingDecoration() {
-    
+    const element = document.getElementById('styled-header');
+
+    if (element.classList.contains('normal')) {
+        element.classList.remove('normal');
+        element.classList.add('styled-header');
+    } else {
+        element.classList.remove('styled-header');
+        element.classList.add('normal');
+    }
 }
