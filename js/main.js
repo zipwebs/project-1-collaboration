@@ -13,7 +13,7 @@ function toggleContent() {
     isUpdated = !isUpdated; // toggle the flag
 }
 
-// This function is going to the  Section background Color  by changing the CSS class 
+// This function is going to set Section background Color  by changing the CSS class which were declared by Ahmad 
 function toggleSectionColor() {
     const element = document.getElementById('change-bg');
 
@@ -24,4 +24,9 @@ function toggleSectionColor() {
         element.classList.remove('blue-background');
         element.classList.add('white-background');
     }
+}
+
+//This function is very similar to the one above, it will check if a particular class exists then it will change it if does. 
+function toggleSectionHeadingDecoration() {
+    
 }
