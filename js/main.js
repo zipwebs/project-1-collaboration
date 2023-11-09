@@ -12,3 +12,8 @@ function toggleContent() {
 
     isUpdated = !isUpdated; // toggle the flag
 }
+
+// This function is going to the  Section background Color  by changing the CSS class
+function toggleSectionColor() {
+
+}
