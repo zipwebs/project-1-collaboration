@@ -62,5 +62,5 @@ function printToConsoleSimple(){
 
 // Showing an alert when showAlert function is invoked.
 function showAlert() {
-    alert("This is a simple alert box for WDDM - 113, which doesn't give the user a great experience. But it get the job done when needed!");
+    alert("This is a simple alert box for WDDM - 115, which doesn't give the user a great experience. But it get the job done when needed!");
 }
