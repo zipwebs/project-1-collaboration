@@ -38,3 +38,8 @@ function toggleSectionHeadingDecoration() {
         element.classList.add('normal');
     }
 }
+
+// The duplicate me fuction will clone the node in question when it's invoked.  
+function duplicateMe() {
+
+}
